@@ -60,5 +60,7 @@ public class ShopperCart extends BaseClass{
 				.delete("https://www.shoppersstack.com/shopping/shoppers/{shopperId}/carts/{productId}");
 		
 		res.then().log().all();
+		
+		System.out.println("this is second commit");
 	}
 }
